@@ -28,18 +28,18 @@ body, p{
     /* font-weight: normal;
     letter-spacing: -0.05em; */
 }
-
-.container
-{
-    position: relative;
-    
-    max-width: 1170px;
-    margin:  auto;
-}
 header .logo{
     height: 30px;
     
 }
+.container
+{
+  
+    
+    max-width: 1170px;
+    margin:  auto;
+}
+
 #language{
     padding: 7px 5px 3px;
     margin-right: 25px;
@@ -51,6 +51,7 @@ header .logo{
     width: 80px; /* Adjust logo size */
 }
 .logo{
+    
     display: flex;
     align-items: center;
     padding: auto;
@@ -62,7 +63,6 @@ nav{
     background: #ffe600;
     display: flex;
     padding: 30px 0 0;
-    z-index: 1;
     top: 30px;
     justify-content: space-between;
     flex-direction: row;
@@ -71,7 +71,7 @@ nav{
 }
 
 .navlinks-container {
-    flex-grow: 1;
+    flex: 1;
     text-align: center;
     margin-left: 80px;
 }
@@ -176,7 +176,7 @@ div{
     }
 }
 .navigation-button{
-    text-align: center;
+    align-items: center;
     position: absolute;
     left: 50%;
     bottom: 1rem;
@@ -219,13 +219,10 @@ h2{
 .leftarrow{
     left: 20px;
     position: absolute;
-    align-items: center;
     width: 5%;
     height: auto;
     top: 50%;
-    margin: 0;
-    padding: 0;
-    align-items: center;
+    
 
 }
 .leftarrow img{
@@ -237,7 +234,7 @@ h2{
     right: 20px;
     position: absolute;
     top: 50%;
-    align-items: center;
+    
 }
 .rightarrow img{
     width: 100%;
@@ -251,15 +248,12 @@ h2{
     align-items: center;
     
 }
-.productimagelist .list-row div{
+/* .productimagelist .list-row div{
     
     text-align: center;
-    margin: 0;
-    padding: 0;
-   
 
     
-}
+} */
 
 .productimagelist .list-row img{
     max-width: 100%;
@@ -305,7 +299,6 @@ h2{
     padding: 8px 25px;
     background-color: #da291c;
     margin: 36px 10px;
-    display: flex;
     font-size: 15px;
     
 }
@@ -339,7 +332,6 @@ h2{
     padding: 8px 25px;
     background-color: #da291c;
     margin: 0px 10px;
-    display: flex;
     font-size: 15px;
     
 }
@@ -381,7 +373,6 @@ h2{
     border-radius: 30px;
     padding: 8px 25px;
     background-color: #da291c;
-    display: flex;
     font-size: 15px;
     margin:0 10px;
     
@@ -519,7 +510,6 @@ h2{
     padding: 11px 38px;
     background-color: #da291c;
     margin: 10px 20px;
-    display: flex;
     font-size: 15px;
     
 }
@@ -560,7 +550,6 @@ h2{
     padding: 11px 38px;
     background-color: #da291c;
     margin: 38px 20px;
-    display: flex;
     font-size: 15px;
     
 }
@@ -599,7 +588,6 @@ h2{
     padding: 11px 38px;
     background-color: #da291c;
     margin: 9px 20px;
-    display: flex;
     font-size: 15px;
     
 }
@@ -639,7 +627,6 @@ h2{
 .say-hello{
     color: #fff;
     font-size: 28px;
-    position: relative;
     text-align:center;
 }
 
